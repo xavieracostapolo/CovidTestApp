@@ -32,3 +32,10 @@ Para ejecutar un proyecto de pruebas unitarias, en la carpeta donde se encuentre
 * dotnet sln BackEndCovidTestApp.sln add 5.\ Infraestructure/App.CovidTest.Infraestructure.ExternalService/
 
 * dotnet run -p 2.\ Distribution/App.CovidTest.WebAPI/
+
+
+Solucion de problema, si envio archivos antes del gitignore.
+git rm -r --cached .
+git add .
+git commit -m "Removing all files in .gitignore"
+git push
