@@ -1,15 +1,17 @@
-using System;
 using System.Collections.Generic;
+using System.Linq;
+using System;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 
 namespace App.CovidTest.Library.Repository
 {
     public interface IRepository<T> where T : class
     {
-        void Add(T entity);
-        T Get(int id);
-        IEnumerable<T> GetAll();
-        IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
-        int SaveChanges();
+        Task Add(T entity);
+        Task<T> Get(int id);
+        Task<IEnumerable<T>> GetAll();
+        IQueryable<T> Find();
+        Task<int> SaveChanges();
     }
 }

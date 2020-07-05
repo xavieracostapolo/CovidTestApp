@@ -1,39 +1,39 @@
 using System.Collections.Generic;
-using App.CovidTest.WebAPI.Models;
+using App.CovidTest.Contracts.ServiceLibrary.Contracts;
+using Model = App.CovidTest.WebAPI.Models;
 using App.CovidTest.WebAPI.Services.Contracts;
+using Dto = App.CovidTest.Contracts.ServiceLibrary.DTO;
+using AutoMapper;
+using System.Threading.Tasks;
 
 namespace App.CovidTest.WebAPI.Services.Implementations
 {
     public class ItemService : IItemService 
     {
-        public IEnumerable<Item> GetItem(int id)
+        private readonly IItemApplicationService _itemApplicationService;
+        private readonly IMapper _mapper;
+
+        public ItemService(
+            IItemApplicationService itemApplicationService,
+            IMapper mapper)
         {
-            throw new System.NotImplementedException();
+            _itemApplicationService = itemApplicationService;
+            _mapper = mapper;
+        }
+        public async Task<Model.Item> GetItem(int id)
+        {
+            return _mapper.Map<Model.Item>(await _itemApplicationService.Get(id));
         }
 
-        public IEnumerable<Item> GetItems()
+        public async Task<IEnumerable<Model.Item>> GetItems()
         {
-            throw new System.NotImplementedException();
+            return _mapper.Map<IEnumerable<Model.Item>>(await _itemApplicationService.GetAll());
         }
 
-        public IEnumerable<Item> SaveItems(Item item)
+        public async Task<Model.Item> SaveItems(Model.Item item)
         {
-            throw new System.NotImplementedException();
-        }
-
-        public string Test()
-        {
-            return "Hola Mundo.";
-        }
-
-        Item IItemService.GetItem(int id)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        Item IItemService.SaveItems(Item item)
-        {
-            throw new System.NotImplementedException();
+            await _itemApplicationService.Add(_mapper.Map<Dto.Item>(item));
+            return new Model.Item();
         }
     }
 }

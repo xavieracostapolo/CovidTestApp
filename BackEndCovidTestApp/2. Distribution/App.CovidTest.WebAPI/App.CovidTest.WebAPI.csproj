@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\3. Application\App.CovidTest.Contracts.ServiceLibrary\App.CovidTest.Contracts.ServiceLibrary.csproj" />
+    <ProjectReference Include="..\..\3. Application\App.CovidTest.Impl.ServiceLibrary\App.CovidTest.Impl.ServiceLibrary.csproj" />
+    <ProjectReference Include="..\..\5. Infraestructure\App.CovidTest.Infraestructure.Data\App.CovidTest.Infraestructure.Data.csproj" />
   </ItemGroup>
 
 

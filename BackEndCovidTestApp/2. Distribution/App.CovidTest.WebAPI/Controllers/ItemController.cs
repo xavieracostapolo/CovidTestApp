@@ -1,10 +1,14 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using App.CovidTest.WebAPI.Models;
 using App.CovidTest.WebAPI.Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace App.CovidTest.WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]/v1")]
+    [Route("api/[controller]/v1")]
     public class ItemController : ControllerBase
     {
         private readonly IItemService _itemService;
@@ -14,9 +18,25 @@ namespace App.CovidTest.WebAPI.Controllers
         }
 
         [HttpGet]
-        public string Get()
+        [Route("GetItem")]
+        public async Task<ActionResult<Item>> GetItem(int id)
         {
-            return _itemService.Test();
+            return await _itemService.GetItem(id);
+        }
+
+        [HttpPost]
+        [Route("SaveItem")]
+        public async Task<ActionResult<Item>> SaveItem(Item item)
+        {
+            return await _itemService.SaveItems(item);
+        }
+
+        [HttpGet]
+        [Route("GetAll")]
+        public async Task<ActionResult<IEnumerable<Item>>> GetAll()
+        {
+            var res = await _itemService.GetItems();
+            return res.ToList();
         }
     }
 }

@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace App.CovidTest.WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]/v1")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -24,6 +24,7 @@ namespace App.CovidTest.WebAPI.Controllers
         }
 
         [HttpGet]
+        [Route("GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

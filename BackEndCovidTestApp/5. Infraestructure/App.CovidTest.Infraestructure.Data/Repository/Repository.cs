@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 using App.CovidTest.Infraestructure.Data.Contexts;
 using App.CovidTest.Library.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ namespace App.CovidTest.Infraestructure.Data.Repository
     public class Repository<T> : IRepository<T> where T : class
     {
         private readonly CovidTestDbContext _context;
+
         protected DbSet<T> DbSet { get; }
 
         public Repository(CovidTestDbContext context)
@@ -18,29 +20,30 @@ namespace App.CovidTest.Infraestructure.Data.Repository
             this._context = context;
             DbSet = this._context.Set<T>();
         }
-        public void Add(T entity)
+
+        public async Task Add(T entity)
         {
-            DbSet.Add(entity);
+            await DbSet.AddAsync(entity);
         }
 
-        public IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
+        public IQueryable<T> Find()
         {
-            return DbSet.Where(predicate);
+            return DbSet.AsQueryable();
         }
 
-        public T Get(int id)
+        public async Task<T> Get(int id)
         {
-            return DbSet.Find(id);
+            return await DbSet.FindAsync(id);
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAll()
         {
-            return DbSet.ToList();
+            return await DbSet.ToListAsync();
         }
 
-        public int SaveChanges()
+        public async Task<int> SaveChanges()
         {
-            return this._context.SaveChanges();
+            return await this._context.SaveChangesAsync();
         }
     }
 }
