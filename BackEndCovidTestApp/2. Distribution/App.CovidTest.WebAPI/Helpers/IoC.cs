@@ -1,6 +1,8 @@
 using App.CovidTest.Contracts.ServiceLibrary.Contracts;
 using App.CovidTest.Impl.ServiceLibrary.Implementation;
 using App.CovidTest.Infraestructure.Data.Repository;
+using App.CovidTest.Library.DomainContracts;
+using App.CovidTest.Library.DomainImplementation;
 using App.CovidTest.Library.Repository;
 using App.CovidTest.WebAPI.Services.Contracts;
 using App.CovidTest.WebAPI.Services.Implementations;
@@ -14,6 +16,7 @@ namespace App.CovidTest.WebAPI.Helpers
         {
             services.AddTransient<IItemService, ItemService>();
             services.AddTransient<IItemApplicationService, ItemApplicationService>();
+            services.AddTransient<IItemDomainService, ItemDomainService>();
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
             return services;
