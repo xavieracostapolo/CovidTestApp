@@ -1,9 +1,0 @@
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/bin/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.deps.json
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/bin/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.dll
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/bin/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.pdb
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/obj/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.csprojAssemblyReference.cache
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/obj/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.AssemblyInfoInputs.cache
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/obj/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.AssemblyInfo.cs
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/obj/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.csproj.CoreCompileInputs.cache
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/obj/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.dll
-/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/obj/Debug/netstandard2.0/App.CovidTest.Contracts.ServiceLibrary.pdb
