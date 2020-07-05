@@ -35,7 +35,13 @@ Para ejecutar un proyecto de pruebas unitarias, en la carpeta donde se encuentre
 
 
 Solucion de problema, si envio archivos antes del gitignore.
-git rm -r --cached .
-git add .
-git commit -m "Removing all files in .gitignore"
-git push
+* git rm -r --cached .
+* git add .
+* git commit -m "Removing all files in .gitignore"
+* git push
+
+
+# Agregar Swagger al API
+* dotnet add 2.\ Distribution/App.CovidTest.WebAPI/  package Swashbuckle.AspNetCore
+* https://localhost:5001/swagger/v1/swagger.json
+* https://localhost:5001/swagger/index.html
