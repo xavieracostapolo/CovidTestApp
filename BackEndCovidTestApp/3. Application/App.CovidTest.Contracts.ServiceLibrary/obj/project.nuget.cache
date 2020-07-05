@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vvn/bv11hq4vSb3qA/9ZwGUPkwL2xrE2ySAQ2z3+7buDS0rFvlOJ2m/Tc+dpulEZLs1bimOtzxI3fH5DgN3YQg==",
+  "dgSpecHash": "YcoA2RUjCdXascxTR5PkQ412qYt+QkyIrN6rgZwnVkCAtYi3SPmdkhvVNLCEwOH8JoR/JpDFUN+zP5fAtbHbhA==",
   "success": true,
   "projectFilePath": "/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/3. Application/App.CovidTest.Contracts.ServiceLibrary/App.CovidTest.Contracts.ServiceLibrary.csproj",
-  "expectedPackageFiles": [
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
