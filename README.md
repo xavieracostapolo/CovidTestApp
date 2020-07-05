@@ -24,12 +24,16 @@ Para ejecutar un proyecto de pruebas unitarias, en la carpeta donde se encuentre
 * dotnet new classlib -o "5. Infraestructure/App.CovidTest.Infraestructure.Data" -n App.CovidTest.Infraestructure.Data
 * dotnet new classlib -o "5. Infraestructure/App.CovidTest.Infraestructure.ExternalService" -n App.CovidTest.Infraestructure.ExternalService
 
+# Agregar proyectos a la solucion
 * dotnet sln BackEndCovidTestApp.sln add 2.\ Distribution/App.CovidTest.WebAPI
 * dotnet sln BackEndCovidTestApp.sln add 3.\ Application/App.CovidTest.Contracts.ServiceLibrary/
 * dotnet sln BackEndCovidTestApp.sln add 3.\ Application/App.CovidTest.Impl.ServiceLibrary/
 * dotnet sln BackEndCovidTestApp.sln add 4.\ Domain/App.CovidTest.Library/
 * dotnet sln BackEndCovidTestApp.sln add 5.\ Infraestructure/App.CovidTest.Infraestructure.Data/
 * dotnet sln BackEndCovidTestApp.sln add 5.\ Infraestructure/App.CovidTest.Infraestructure.ExternalService/
+
+# Agregar referencia de A to B
+* dotnet add 5.\ Infraestructure/App.CovidTest.Infraestructure.Data/ reference 4.\ Domain/App.CovidTest.Library/
 
 * dotnet run -p 2.\ Distribution/App.CovidTest.WebAPI/
 
@@ -45,3 +49,10 @@ Solucion de problema, si envio archivos antes del gitignore.
 * dotnet add 2.\ Distribution/App.CovidTest.WebAPI/  package Swashbuckle.AspNetCore
 * https://localhost:5001/swagger/v1/swagger.json
 * https://localhost:5001/swagger/index.html
+
+# Ciclo de vida IoC
+* Transient: Se crean cada vez que se solicitan desde el contenedor de servicios. Esta vida útil funciona mejor para servicios ligeros y sin estado.
+
+* Scoped: Se crean una vez por solicitud del cliente(conexión). Se utiliza cuando queremos servir la misma instancia dentro del mismo contexto de una petición HTTP, pero diferente entre distintos contextos HTTP.
+
+* Singleton: Se crean la primera vez que se solicitan o cuando Startup.ConfigureServices se ejecuta y se especifica una instancia con el registro del servicio. Cada solicitud posterior utiliza la misma instancia.
