@@ -1,0 +1,8 @@
+/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/bin/Debug/netstandard2.0/App.CovidTest.Infraestructure.ExternalService.deps.json
+/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/bin/Debug/netstandard2.0/App.CovidTest.Infraestructure.ExternalService.dll
+/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/bin/Debug/netstandard2.0/App.CovidTest.Infraestructure.ExternalService.pdb
+/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/obj/Debug/netstandard2.0/App.CovidTest.Infraestructure.ExternalService.AssemblyInfoInputs.cache
+/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/obj/Debug/netstandard2.0/App.CovidTest.Infraestructure.ExternalService.AssemblyInfo.cs
+/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/obj/Debug/netstandard2.0/App.CovidTest.Infraestructure.ExternalService.csproj.CoreCompileInputs.cache
+/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/obj/Debug/netstandard2.0/App.CovidTest.Infraestructure.ExternalService.dll
+/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/obj/Debug/netstandard2.0/App.CovidTest.Infraestructure.ExternalService.pdb

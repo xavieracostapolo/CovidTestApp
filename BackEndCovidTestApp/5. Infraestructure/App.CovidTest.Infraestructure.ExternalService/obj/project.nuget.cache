@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+iASOCOsKKQYw6P521Pr6ENnUuyUJRN8maY23wjHiUrBKpHjHAiMW35fiEe7+aVtMm2TcS4hlltEX3Df/SLOrA==",
+  "success": true,
+  "projectFilePath": "/Users/xavieracosta/Documents/NetCore/CovidTestApp/BackEndCovidTestApp/5. Infraestructure/App.CovidTest.Infraestructure.ExternalService/App.CovidTest.Infraestructure.ExternalService.csproj",
+  "expectedPackageFiles": [
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
