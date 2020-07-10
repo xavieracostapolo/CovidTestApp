@@ -181,6 +181,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "frontend-covidtest-app"
+    }
+  },
+  "defaultProject": "frontend-covidtest-app",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }

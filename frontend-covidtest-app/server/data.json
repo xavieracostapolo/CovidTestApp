@@ -1,0 +1,1425 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "tipoDocumento": 1,
+      "documento": "75-243-4925",
+      "nombres": "Lela",
+      "primerApellido": "Deering",
+      "segundoApellido": "Somerlie",
+      "email": "lsomerlie0@networkadvertising.org",
+      "password": "JifyNA",
+      "politicas": true
+    },
+    {
+      "id": 2,
+      "tipoDocumento": 2,
+      "documento": "64-164-7262",
+      "nombres": "Jaimie",
+      "primerApellido": "Sutter",
+      "segundoApellido": "Tassel",
+      "email": "jtassel1@slideshare.net",
+      "password": "6CRDLGc",
+      "politicas": false
+    },
+    {
+      "id": 3,
+      "tipoDocumento": 3,
+      "documento": "15-228-2245",
+      "nombres": "Paulette",
+      "primerApellido": "Duckwith",
+      "segundoApellido": "Tuerena",
+      "email": "ptuerena2@rediff.com",
+      "password": "0NBZXtIO",
+      "politicas": true
+    },
+    {
+      "id": 4,
+      "tipoDocumento": 4,
+      "documento": "75-581-8547",
+      "nombres": "Ab",
+      "primerApellido": "Mapowder",
+      "segundoApellido": "Whyberd",
+      "email": "awhyberd3@abc.net.au",
+      "password": "VtdqqBraji",
+      "politicas": false
+    },
+    {
+      "id": 5,
+      "tipoDocumento": 5,
+      "documento": "59-465-3928",
+      "nombres": "Gerri",
+      "primerApellido": "Cleare",
+      "segundoApellido": "Schubbert",
+      "email": "gschubbert4@columbia.edu",
+      "password": "AjEpqls3CJXW",
+      "politicas": false
+    },
+    {
+      "id": 6,
+      "tipoDocumento": 6,
+      "documento": "29-139-4647",
+      "nombres": "Angelina",
+      "primerApellido": "Ebbitt",
+      "segundoApellido": "Room",
+      "email": "aroom5@yellowbook.com",
+      "password": "alyOkhIe",
+      "politicas": false
+    },
+    {
+      "id": 7,
+      "tipoDocumento": 7,
+      "documento": "57-013-2695",
+      "nombres": "Clementius",
+      "primerApellido": "Armfirld",
+      "segundoApellido": "Dziwisz",
+      "email": "cdziwisz6@prweb.com",
+      "password": "iXbwqL",
+      "politicas": true
+    },
+    {
+      "id": 8,
+      "tipoDocumento": 8,
+      "documento": "34-636-2065",
+      "nombres": "Rozalin",
+      "primerApellido": "Kobel",
+      "segundoApellido": "Gillum",
+      "email": "rgillum7@privacy.gov.au",
+      "password": "kzQcLWE",
+      "politicas": false
+    },
+    {
+      "id": 9,
+      "tipoDocumento": 9,
+      "documento": "77-224-2021",
+      "nombres": "Harriette",
+      "primerApellido": "Murtagh",
+      "segundoApellido": "Lavalle",
+      "email": "hlavalle8@example.com",
+      "password": "zjjCfXuTz",
+      "politicas": true
+    },
+    {
+      "id": 10,
+      "tipoDocumento": 10,
+      "documento": "11-348-8822",
+      "nombres": "Vanya",
+      "primerApellido": "Wormleighton",
+      "segundoApellido": "Cursons",
+      "email": "vcursons9@army.mil",
+      "password": "Ro6ZpEX",
+      "politicas": false
+    },
+    {
+      "tipoDocumento": "1",
+      "documento": "12311132",
+      "nombres": "qwe",
+      "primerApellido": "qwe",
+      "segundoApellido": "qwe",
+      "email": "qwe@com",
+      "password": "qwe",
+      "confirmPassword": "qwe",
+      "politicas": true,
+      "id": 11
+    },
+    {
+      "tipoDocumento": "2",
+      "documento": "123456",
+      "nombres": "qwe",
+      "primerApellido": "qwe",
+      "segundoApellido": "qwe",
+      "email": "qwe@qwe",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "politicas": true,
+      "id": 12
+    },
+    {
+      "tipoDocumento": "2",
+      "documento": "12345",
+      "nombres": "ytr",
+      "primerApellido": "ytr",
+      "segundoApellido": "ytr",
+      "email": "ytr@tre",
+      "password": "tre",
+      "confirmPassword": "tre",
+      "politicas": true,
+      "id": 13
+    },
+    {
+      "tipoDocumento": "2",
+      "documento": "876876",
+      "nombres": "iuy",
+      "primerApellido": "iuy",
+      "segundoApellido": "iuy",
+      "email": "iuy@kjh",
+      "password": "876",
+      "confirmPassword": "876",
+      "politicas": true,
+      "id": 14
+    },
+    {
+      "tipoDocumento": "2",
+      "documento": "76876",
+      "nombres": "oiu",
+      "primerApellido": "oiu",
+      "segundoApellido": "oiu",
+      "email": "oiu@lkj",
+      "password": "lkj",
+      "confirmPassword": "lkj",
+      "politicas": true,
+      "id": 15
+    },
+    {
+      "tipoDocumento": "3",
+      "documento": "09808",
+      "nombres": "lkjlkj",
+      "primerApellido": "ljlj",
+      "segundoApellido": "kjlj",
+      "email": "xavieracosta@ingenieros.com",
+      "password": "oiu",
+      "confirmPassword": "oiu",
+      "politicas": true,
+      "id": 16
+    },
+    {
+      "tipoDocumento": "2",
+      "documento": "098",
+      "nombres": "pio",
+      "primerApellido": "poi",
+      "segundoApellido": "poi",
+      "email": "poi@poi",
+      "password": "poi",
+      "confirmPassword": "poi",
+      "politicas": true,
+      "id": 17
+    },
+    {
+      "tipoDocumento": "2",
+      "documento": "987",
+      "nombres": "oiu",
+      "primerApellido": "oiu",
+      "segundoApellido": "oiu",
+      "email": "oiu@lkj",
+      "password": "lkj",
+      "confirmPassword": "lkj",
+      "politicas": true,
+      "id": 18
+    },
+    {
+      "tipoDocumento": "2",
+      "documento": "098",
+      "nombres": "oiu",
+      "primerApellido": "oiu",
+      "segundoApellido": "oiu",
+      "email": "iu@oiu",
+      "password": "oiu",
+      "confirmPassword": "oiu",
+      "politicas": true,
+      "id": 19
+    },
+    {
+      "tipoDocumento": "2",
+      "documento": "234234",
+      "nombres": "rwerw",
+      "primerApellido": "werwer",
+      "segundoApellido": "werwer",
+      "email": "xavieracosta@ingenieros.com",
+      "password": "wer",
+      "confirmPassword": "wer",
+      "politicas": true,
+      "id": 20
+    },
+    {
+      "tipoDocumento": "3",
+      "documento": "234234",
+      "nombres": "sdfsdf",
+      "primerApellido": "sdfsdf",
+      "segundoApellido": "sdfsdf",
+      "email": "xavieracosta@ingenieros.com",
+      "password": "sdf",
+      "confirmPassword": "sdf",
+      "politicas": true,
+      "id": 21
+    },
+    {
+      "tipoDocumento": "1",
+      "documento": "324234",
+      "nombres": "adsasd",
+      "primerApellido": "asdasd",
+      "segundoApellido": "asdasd",
+      "email": "xavieracosta@ingenieros.com",
+      "password": "asd",
+      "confirmPassword": "asd",
+      "politicas": true,
+      "id": 22
+    },
+    {
+      "tipoDocumento": "1",
+      "documento": "23123",
+      "nombres": "1232",
+      "primerApellido": "123123",
+      "segundoApellido": "123123",
+      "email": "xavieracosta@ingenieros.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "politicas": true,
+      "id": 23
+    }
+  ],
+  "logs": [
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-01T15:15:58.718Z",
+      "fileName": "main.js",
+      "lineNumber": "2718",
+      "id": 1
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T11:04:56.489Z",
+      "fileName": "main.js",
+      "lineNumber": "2718",
+      "id": 2
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T11:04:56.534Z",
+      "fileName": "main.js",
+      "lineNumber": "2719",
+      "id": 3
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T11:04:56.637Z",
+      "fileName": "main.js",
+      "lineNumber": "2720",
+      "id": 4
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T11:04:56.706Z",
+      "fileName": "main.js",
+      "lineNumber": "2721",
+      "id": 5
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T11:04:56.732Z",
+      "fileName": "main.js",
+      "lineNumber": "2722",
+      "id": 6
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T11:07:27.085Z",
+      "fileName": "main.js",
+      "lineNumber": "2731",
+      "id": 7
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T11:07:27.162Z",
+      "fileName": "main.js",
+      "lineNumber": "2732",
+      "id": 8
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T11:07:27.172Z",
+      "fileName": "main.js",
+      "lineNumber": "2733",
+      "id": 9
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T11:07:27.175Z",
+      "fileName": "main.js",
+      "lineNumber": "2734",
+      "id": 10
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T11:07:27.182Z",
+      "fileName": "main.js",
+      "lineNumber": "2735",
+      "id": 11
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T11:07:27.199Z",
+      "fileName": "main.js",
+      "lineNumber": "2736",
+      "id": 12
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T11:09:46.292Z",
+      "fileName": "main.js",
+      "lineNumber": "2734",
+      "id": 13
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T11:09:46.272Z",
+      "fileName": "main.js",
+      "lineNumber": "2731",
+      "id": 14
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T11:09:46.306Z",
+      "fileName": "main.js",
+      "lineNumber": "2735",
+      "id": 15
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T11:09:46.289Z",
+      "fileName": "main.js",
+      "lineNumber": "2733",
+      "id": 16
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T11:09:46.286Z",
+      "fileName": "main.js",
+      "lineNumber": "2732",
+      "id": 17
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T11:09:46.310Z",
+      "fileName": "main.js",
+      "lineNumber": "2736",
+      "id": 18
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T11:10:26.825Z",
+      "fileName": "main.js",
+      "lineNumber": "2731",
+      "id": 19
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T11:10:26.871Z",
+      "fileName": "main.js",
+      "lineNumber": "2732",
+      "id": 20
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T11:10:26.881Z",
+      "fileName": "main.js",
+      "lineNumber": "2733",
+      "id": 21
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T11:10:26.896Z",
+      "fileName": "main.js",
+      "lineNumber": "2734",
+      "id": 22
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T11:10:26.903Z",
+      "fileName": "main.js",
+      "lineNumber": "2735",
+      "id": 23
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T11:10:26.944Z",
+      "fileName": "main.js",
+      "lineNumber": "2736",
+      "id": 24
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        },
+        "The additional[1] value could not be parsed using JSON.stringify()."
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T11:19:39.115Z",
+      "fileName": "main.js",
+      "lineNumber": "2731",
+      "id": 25
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T11:19:39.124Z",
+      "fileName": "main.js",
+      "lineNumber": "2732",
+      "id": 26
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T11:19:39.218Z",
+      "fileName": "main.js",
+      "lineNumber": "2733",
+      "id": 27
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T11:19:39.224Z",
+      "fileName": "main.js",
+      "lineNumber": "2734",
+      "id": 28
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T11:19:39.234Z",
+      "fileName": "main.js",
+      "lineNumber": "2735",
+      "id": 29
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T11:19:39.252Z",
+      "fileName": "main.js",
+      "lineNumber": "2736",
+      "id": 30
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        },
+        {}
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T11:23:19.389Z",
+      "fileName": "main.js",
+      "lineNumber": "2731",
+      "id": 31
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T11:23:19.412Z",
+      "fileName": "main.js",
+      "lineNumber": "2732",
+      "id": 32
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T11:23:19.468Z",
+      "fileName": "main.js",
+      "lineNumber": "2733",
+      "id": 33
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        },
+        "The additional[1] value could not be parsed using JSON.stringify()."
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T11:24:13.670Z",
+      "fileName": "main.js",
+      "lineNumber": "2731",
+      "id": 34
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T11:24:13.767Z",
+      "fileName": "main.js",
+      "lineNumber": "2732",
+      "id": 35
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T11:24:13.772Z",
+      "fileName": "main.js",
+      "lineNumber": "2733",
+      "id": 36
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T11:24:13.788Z",
+      "fileName": "main.js",
+      "lineNumber": "2734",
+      "id": 37
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T11:24:13.829Z",
+      "fileName": "main.js",
+      "lineNumber": "2735",
+      "id": 38
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T11:24:13.922Z",
+      "fileName": "main.js",
+      "lineNumber": "2736",
+      "id": 39
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T11:31:29.490Z",
+      "fileName": "main.js",
+      "lineNumber": "2731",
+      "id": 40
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T11:31:29.498Z",
+      "fileName": "main.js",
+      "lineNumber": "2732",
+      "id": 41
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T11:31:29.558Z",
+      "fileName": "main.js",
+      "lineNumber": "2733",
+      "id": 42
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T11:31:29.567Z",
+      "fileName": "main.js",
+      "lineNumber": "2734",
+      "id": 43
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T12:25:48.038Z",
+      "fileName": "main.js",
+      "lineNumber": "2860",
+      "id": 44
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T12:25:48.050Z",
+      "fileName": "main.js",
+      "lineNumber": "2861",
+      "id": 45
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T12:25:48.065Z",
+      "fileName": "main.js",
+      "lineNumber": "2862",
+      "id": 46
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T12:25:48.108Z",
+      "fileName": "main.js",
+      "lineNumber": "2864",
+      "id": 47
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T12:25:48.102Z",
+      "fileName": "main.js",
+      "lineNumber": "2863",
+      "id": 48
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T12:25:48.113Z",
+      "fileName": "main.js",
+      "lineNumber": "2865",
+      "id": 49
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T12:29:46.759Z",
+      "fileName": "main.js",
+      "lineNumber": "2864",
+      "id": 50
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T12:29:46.857Z",
+      "fileName": "main.js",
+      "lineNumber": "2865",
+      "id": 51
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T12:29:46.927Z",
+      "fileName": "main.js",
+      "lineNumber": "2866",
+      "id": 52
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T12:29:46.957Z",
+      "fileName": "main.js",
+      "lineNumber": "2867",
+      "id": 53
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T12:29:46.970Z",
+      "fileName": "main.js",
+      "lineNumber": "2868",
+      "id": 54
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T12:29:47.006Z",
+      "fileName": "main.js",
+      "lineNumber": "2869",
+      "id": 55
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T12:54:25.332Z",
+      "fileName": "main.js",
+      "lineNumber": "2864",
+      "id": 56
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T12:54:25.355Z",
+      "fileName": "main.js",
+      "lineNumber": "2865",
+      "id": 57
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T12:54:25.502Z",
+      "fileName": "main.js",
+      "lineNumber": "2866",
+      "id": 58
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T12:54:25.515Z",
+      "fileName": "main.js",
+      "lineNumber": "2867",
+      "id": 59
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T12:54:25.529Z",
+      "fileName": "main.js",
+      "lineNumber": "2868",
+      "id": 60
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T12:54:25.538Z",
+      "fileName": "main.js",
+      "lineNumber": "2869",
+      "id": 61
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T12:59:24.004Z",
+      "fileName": "main.js",
+      "lineNumber": "2864",
+      "id": 62
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T12:59:24.038Z",
+      "fileName": "main.js",
+      "lineNumber": "2865",
+      "id": 63
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T12:59:24.142Z",
+      "fileName": "main.js",
+      "lineNumber": "2866",
+      "id": 64
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T12:59:24.147Z",
+      "fileName": "main.js",
+      "lineNumber": "2867",
+      "id": 65
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T12:59:24.154Z",
+      "fileName": "main.js",
+      "lineNumber": "2868",
+      "id": 66
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T12:59:24.206Z",
+      "fileName": "main.js",
+      "lineNumber": "2869",
+      "id": 67
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T13:03:11.196Z",
+      "fileName": "main.js",
+      "lineNumber": "2864",
+      "id": 68
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T13:03:11.219Z",
+      "fileName": "main.js",
+      "lineNumber": "2865",
+      "id": 69
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T13:03:11.227Z",
+      "fileName": "main.js",
+      "lineNumber": "2866",
+      "id": 70
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T13:03:11.355Z",
+      "fileName": "main.js",
+      "lineNumber": "2867",
+      "id": 71
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T13:03:11.359Z",
+      "fileName": "main.js",
+      "lineNumber": "2868",
+      "id": 72
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T13:04:01.415Z",
+      "fileName": "main.js",
+      "lineNumber": "2860",
+      "id": 73
+    },
+    {
+      "message": "debug",
+      "additional": [],
+      "level": 1,
+      "timestamp": "2020-05-02T13:04:01.449Z",
+      "fileName": "main.js",
+      "lineNumber": "2861",
+      "id": 74
+    },
+    {
+      "message": "info",
+      "additional": [],
+      "level": 2,
+      "timestamp": "2020-05-02T13:04:01.578Z",
+      "fileName": "main.js",
+      "lineNumber": "2862",
+      "id": 75
+    },
+    {
+      "message": "log",
+      "additional": [],
+      "level": 3,
+      "timestamp": "2020-05-02T13:04:01.591Z",
+      "fileName": "main.js",
+      "lineNumber": "2863",
+      "id": 76
+    },
+    {
+      "message": "warning",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T13:04:01.598Z",
+      "fileName": "main.js",
+      "lineNumber": "2864",
+      "id": 77
+    },
+    {
+      "message": "error",
+      "additional": [],
+      "level": 5,
+      "timestamp": "2020-05-02T13:04:01.644Z",
+      "fileName": "main.js",
+      "lineNumber": "2865",
+      "id": 78
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T13:21:07.903Z",
+      "fileName": "main.js",
+      "lineNumber": "2857",
+      "id": 79
+    },
+    {
+      "message": "error",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T13:23:27.040Z",
+      "fileName": "main.js",
+      "lineNumber": "2912",
+      "id": 80
+    },
+    {
+      "message": "Error generado por mi 2",
+      "additional": [
+        "Error: Error generado por mi 2\n    at RegisterComponent.ngOnInit (http://localhost:4200/main.js:2913:15)\n    at callHook (http://localhost:4200/vendor.js:13719:18)\n    at callHooks (http://localhost:4200/vendor.js:13683:17)\n    at executeInitAndCheckHooks (http://localhost:4200/vendor.js:13624:9)\n    at refreshView (http://localhost:4200/vendor.js:19987:21)\n    at refreshDynamicEmbeddedViews (http://localhost:4200/vendor.js:21327:21)\n    at refreshView (http://localhost:4200/vendor.js:19992:9)\n    at refreshDynamicEmbeddedViews (http://localhost:4200/vendor.js:21327:21)\n    at refreshView (http://localhost:4200/vendor.js:19992:9)\n    at refreshComponent (http://localhost:4200/vendor.js:21402:9)"
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T13:23:27.109Z",
+      "fileName": "main.js",
+      "lineNumber": "423",
+      "id": 81
+    },
+    {
+      "message": "ERROR: NO SE QUE HACER",
+      "additional": [
+        {
+          "tipoDocumento": 0,
+          "documento": "",
+          "nombres": "",
+          "primerApellido": "",
+          "segundoApellido": "",
+          "email": "",
+          "password": "",
+          "confirmPassword": "",
+          "politicas": false
+        }
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T13:25:02.215Z",
+      "fileName": "main.js",
+      "lineNumber": "2912",
+      "id": 82
+    },
+    {
+      "message": "ERROR: NO SE QUE HACER",
+      "additional": [
+        "Error: ERROR: NO SE QUE HACER\n    at RegisterComponent.ngOnInit (http://localhost:4200/main.js:2913:15)\n    at callHook (http://localhost:4200/vendor.js:13719:18)\n    at callHooks (http://localhost:4200/vendor.js:13683:17)\n    at executeInitAndCheckHooks (http://localhost:4200/vendor.js:13624:9)\n    at refreshView (http://localhost:4200/vendor.js:19987:21)\n    at refreshDynamicEmbeddedViews (http://localhost:4200/vendor.js:21327:21)\n    at refreshView (http://localhost:4200/vendor.js:19992:9)\n    at refreshDynamicEmbeddedViews (http://localhost:4200/vendor.js:21327:21)\n    at refreshView (http://localhost:4200/vendor.js:19992:9)\n    at refreshComponent (http://localhost:4200/vendor.js:21402:9)"
+      ],
+      "level": 5,
+      "timestamp": "2020-05-02T13:25:02.315Z",
+      "fileName": "main.js",
+      "lineNumber": "423",
+      "id": 83
+    },
+    {
+      "message": "{\n  \"tipoDocumento\": \"2\",\n  \"documento\": \"876876\",\n  \"nombres\": \"iuy\",\n  \"primerApellido\": \"iuy\",\n  \"segundoApellido\": \"iuy\",\n  \"email\": \"iuy@kjh\",\n  \"password\": \"876\",\n  \"confirmPassword\": \"876\",\n  \"politicas\": true\n}",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T18:36:39.434Z",
+      "fileName": "main.js",
+      "lineNumber": "2880",
+      "id": 84
+    },
+    {
+      "message": "{\n  \"tipoDocumento\": \"2\",\n  \"documento\": \"76876\",\n  \"nombres\": \"oiu\",\n  \"primerApellido\": \"oiu\",\n  \"segundoApellido\": \"oiu\",\n  \"email\": \"oiu@lkj\",\n  \"password\": \"lkj\",\n  \"confirmPassword\": \"lkj\",\n  \"politicas\": true\n}",
+      "additional": [],
+      "level": 4,
+      "timestamp": "2020-05-02T18:51:50.057Z",
+      "fileName": "main.js",
+      "lineNumber": "2880",
+      "id": 85
+    },
+    {
+      "message": "Register Success",
+      "additional": [
+        [
+          {
+            "usuario": {
+              "tipoDocumento": "3",
+              "documento": "09808",
+              "nombres": "lkjlkj",
+              "primerApellido": "ljlj",
+              "segundoApellido": "kjlj",
+              "email": "xavieracosta@ingenieros.com",
+              "password": "oiu",
+              "confirmPassword": "oiu",
+              "politicas": true,
+              "id": 16
+            },
+            "type": "[Register Page] Register Success"
+          }
+        ]
+      ],
+      "level": 1,
+      "timestamp": "2020-05-04T17:53:48.932Z",
+      "fileName": "main.js",
+      "lineNumber": "453",
+      "id": 86
+    },
+    {
+      "message": "Register Success",
+      "additional": [
+        [
+          {
+            "usuario": {
+              "tipoDocumento": "2",
+              "documento": "098",
+              "nombres": "pio",
+              "primerApellido": "poi",
+              "segundoApellido": "poi",
+              "email": "poi@poi",
+              "password": "poi",
+              "confirmPassword": "poi",
+              "politicas": true,
+              "id": 17
+            },
+            "type": "[Register Page] Register Success"
+          }
+        ]
+      ],
+      "level": 1,
+      "timestamp": "2020-05-04T18:54:50.431Z",
+      "fileName": "main.js",
+      "lineNumber": "461",
+      "id": 87
+    },
+    {
+      "message": "Register Success",
+      "additional": [
+        [
+          {
+            "usuario": {
+              "tipoDocumento": "2",
+              "documento": "987",
+              "nombres": "oiu",
+              "primerApellido": "oiu",
+              "segundoApellido": "oiu",
+              "email": "oiu@lkj",
+              "password": "lkj",
+              "confirmPassword": "lkj",
+              "politicas": true,
+              "id": 18
+            },
+            "type": "[Register Page] Register Success"
+          }
+        ]
+      ],
+      "level": 1,
+      "timestamp": "2020-05-04T19:10:53.048Z",
+      "fileName": "main-es2015.e01d4c674f3847858fc6.js",
+      "lineNumber": "1",
+      "id": 88
+    },
+    {
+      "message": "Register Success",
+      "additional": [
+        [
+          {
+            "usuario": {
+              "tipoDocumento": "2",
+              "documento": "098",
+              "nombres": "oiu",
+              "primerApellido": "oiu",
+              "segundoApellido": "oiu",
+              "email": "iu@oiu",
+              "password": "oiu",
+              "confirmPassword": "oiu",
+              "politicas": true,
+              "id": 19
+            },
+            "type": "[Register Page] Register Success"
+          }
+        ]
+      ],
+      "level": 1,
+      "timestamp": "2020-05-04T19:25:52.809Z",
+      "fileName": "main-es2015.e01d4c674f3847858fc6.js",
+      "lineNumber": "1",
+      "id": 89
+    },
+    {
+      "message": "Register Success",
+      "additional": [
+        [
+          {
+            "usuario": {
+              "tipoDocumento": "2",
+              "documento": "234234",
+              "nombres": "rwerw",
+              "primerApellido": "werwer",
+              "segundoApellido": "werwer",
+              "email": "xavieracosta@ingenieros.com",
+              "password": "wer",
+              "confirmPassword": "wer",
+              "politicas": true,
+              "id": 20
+            },
+            "type": "[Register Page] Register Success"
+          }
+        ]
+      ],
+      "level": 1,
+      "timestamp": "2020-05-05T17:30:44.088Z",
+      "fileName": "main.js",
+      "lineNumber": "578",
+      "id": 90
+    },
+    {
+      "message": "Register Success",
+      "additional": [
+        [
+          {
+            "usuario": {
+              "tipoDocumento": "1",
+              "documento": "324234",
+              "nombres": "adsasd",
+              "primerApellido": "asdasd",
+              "segundoApellido": "asdasd",
+              "email": "xavieracosta@ingenieros.com",
+              "password": "asd",
+              "confirmPassword": "asd",
+              "politicas": true,
+              "id": 22
+            },
+            "type": "[Register Page] Register Success"
+          }
+        ]
+      ],
+      "level": 1,
+      "timestamp": "2020-05-05T17:34:05.789Z",
+      "fileName": "main.js",
+      "lineNumber": "578",
+      "id": 91
+    },
+    {
+      "message": "Register Success",
+      "additional": [
+        [
+          {
+            "usuario": {
+              "tipoDocumento": "1",
+              "documento": "23123",
+              "nombres": "1232",
+              "primerApellido": "123123",
+              "segundoApellido": "123123",
+              "email": "xavieracosta@ingenieros.com",
+              "password": "123",
+              "confirmPassword": "123",
+              "politicas": true,
+              "id": 23
+            },
+            "type": "[Register Page] Register Success"
+          }
+        ]
+      ],
+      "level": 1,
+      "timestamp": "2020-07-10T11:48:27.982Z",
+      "fileName": "main.js",
+      "lineNumber": "577",
+      "id": 92
+    }
+  ]
+}
