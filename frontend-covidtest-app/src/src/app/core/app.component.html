@@ -1,0 +1,26 @@
+<ng-container *ngIf="viewMenu; then menu; else basic">
+</ng-container>
+
+<ng-template #menu>
+  <div class="wrapper">
+    <app-header></app-header>
+    <app-menu></app-menu>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper pt-1">
+      <!-- Main content -->
+      <section class="content">
+        <div class="container-fluid">
+          <router-outlet></router-outlet>
+        </div>
+      </section>
+    </div>
+    <app-footer></app-footer>
+  </div>
+
+  <app-my-loader></app-my-loader>
+</ng-template>
+
+<ng-template #basic>
+  <router-outlet></router-outlet>
+  <app-my-loader></app-my-loader>
+</ng-template>

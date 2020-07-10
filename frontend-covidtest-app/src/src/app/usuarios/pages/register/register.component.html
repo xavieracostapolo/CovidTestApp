@@ -1,0 +1,150 @@
+<div class="register-box">
+    <div class="register-logo">
+        <a href="../../index2.html"><b>Medic</b>APP</a>
+    </div>
+
+    <div class="card">
+        <div class="card-body register-card-body">
+            <p class="login-box-msg">Registrar un nuevo usuario.</p>
+
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="input-group mb-3">
+                    <select class="custom-select" formControlName="tipoDocumento"
+                        [ngClass]="{ 'is-invalid': submitted && f.tipoDocumento.errors }">
+                        <option value="0" hidden disabled>Tipo de documento</option>
+                        <option value="1">Cedula de ciudadania</option>
+                        <option value="2">Tarjeta de identidad</option>
+                        <option value="3">Registro Civil</option>
+                        <option value="4">Cedula de Extrangeria</option>
+                    </select>
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-id-card"></span>
+                        </div>
+                    </div>
+                    <div *ngIf="submitted && f.tipoDocumento.errors" class="invalid-feedback">
+                        <div *ngIf="f.tipoDocumento.errors.required">Tipo documento is required</div>
+                        <div *ngIf="f.tipoDocumento.errors.min">Tipo documento is required</div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Identificacion" formControlName="documento"
+                        [ngClass]="{ 'is-invalid': submitted && f.documento.errors }">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-id-card"></span>
+                        </div>
+                    </div>
+                    <div *ngIf="submitted && f.documento.errors" class="invalid-feedback">
+                        <div *ngIf="f.documento.errors.required">First Name is required</div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Nombres" formControlName="nombres"
+                        [ngClass]="{ 'is-invalid': submitted && f.nombres.errors }">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user"></span>
+                        </div>
+                    </div>
+                    <div *ngIf="submitted && f.nombres.errors" class="invalid-feedback">
+                        <div *ngIf="f.nombres.errors.required">Segundo apellido is required</div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Primer Apellido"
+                        formControlName="primerApellido"
+                        [ngClass]="{ 'is-invalid': submitted && f.primerApellido.errors }">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user"></span>
+                        </div>
+                    </div>
+                    <div *ngIf="submitted && f.primerApellido.errors" class="invalid-feedback">
+                        <div *ngIf="f.primerApellido.errors.required">Primer apellido is required</div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Segundo Apellido"
+                        formControlName="segundoApellido"
+                        [ngClass]="{ 'is-invalid': submitted && f.segundoApellido.errors }">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-user"></span>
+                        </div>
+                    </div>
+                    <div *ngIf="submitted && f.segundoApellido.errors" class="invalid-feedback">
+                        <div *ngIf="f.segundoApellido.errors.required">Segundo apellido is required</div>
+                    </div>
+                </div>
+                <div class="input-group mb-3 is-invalid">
+                    <input type="email" class="form-control" placeholder="Email" formControlName="email"
+                        [ngClass]="{'is-invalid': submitted && f.email.errors}">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
+                    <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                        <div *ngIf="f.email.errors.required">Email is required</div>
+                        <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Password" formControlName="password"
+                        [ngClass]="{'is-invalid': submitted && f.password.errors}">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                    <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                        <div *ngIf="f.password.errors.required">Password is required</div>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Repetir password"
+                        formControlName="confirmPassword"
+                        [ngClass]="{'is-invalid': submitted && f.confirmPassword.errors}">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
+                        </div>
+                    </div>
+                    <div *ngIf="submitted && f.confirmPassword.errors" class="invalid-feedback">
+                        <div *ngIf="f.confirmPassword.errors.required">Confirm Password is required</div>
+                        <div *ngIf="f.confirmPassword.errors.mustMatch">Passwords must match</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="icheck-primary" [ngClass]="{'is-invalid': submitted && f.politicas.errors}">
+                            <input type="checkbox" id="agreeTerms" name="terms" value="false"
+                                formControlName="politicas">
+                            <label for="agreeTerms">
+                                I agree to the <a href="#">terms</a>
+                            </label>
+                        </div>
+                        <div *ngIf="submitted && f.politicas.errors" class="invalid-feedback">
+                            <div>Politicas true is required</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+                    </div>
+                </div>
+            </form>
+
+            <a routerLink="/usuarios/login" class="text-center">Ya estoy regisrado en la plataforma.</a>
+            <div *ngIf="errorMessage$ | async as string">
+                <div class="alert alert-danger" role="alert">
+                  {{ errorMessage$ | async }}
+                </div>
+              </div>
+        </div>
+        <!-- /.form-box -->
+    </div><!-- /.card -->
+</div>
+<!-- /.register-box -->
