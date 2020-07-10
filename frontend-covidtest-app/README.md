@@ -38,3 +38,7 @@ Resources
 
  Home
   http://localhost:3000
+
+# DESPLEGANDO UN PROYECTO DE ANGULAR EN DOCKER?
+
+* https://binary-coffee.dev/post/desplegando-un-proyecto-de-angular-en-docker
