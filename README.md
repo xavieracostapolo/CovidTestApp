@@ -56,3 +56,19 @@ Solucion de problema, si envio archivos antes del gitignore.
 * Scoped: Se crean una vez por solicitud del cliente(conexión). Se utiliza cuando queremos servir la misma instancia dentro del mismo contexto de una petición HTTP, pero diferente entre distintos contextos HTTP.
 
 * Singleton: Se crean la primera vez que se solicitan o cuando Startup.ConfigureServices se ejecuta y se especifica una instancia con el registro del servicio. Cada solicitud posterior utiliza la misma instancia.
+
+# Docker
+* docker push sitivo5/app.covidtest.webapi
+* docker tag 23b09e91bee4 sitivo5/app.covidtest.webapi:1.0
+* docker images
+* docker run -d -p 1338:80 app.covidtest.webapi
+* docker ps -a
+* docker run -d -p 1338:80 --name app.covidtest.webapi.image app.covidtest.webapi 
+* docker stop docker-tutorial
+* docker start docker-tutorial
+* docker create --name app.covidtest.webapi.image app.covidtest.webapi
+* docker login
+* docker build -t app.covidtest.webapi -f Dockerfile .
+* dotnet publish -c Release
+* dotnet build
+* dotnet restore : 
