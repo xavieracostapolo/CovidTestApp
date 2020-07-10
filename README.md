@@ -66,7 +66,7 @@ Solucion de problema, si envio archivos antes del gitignore.
 * docker run -d -p 1338:80 --name app.covidtest.webapi.image app.covidtest.webapi 
 * docker stop docker-tutorial
 * docker start docker-tutorial
-* docker create --name app.covidtest.webapi.image app.covidtest.webapi
+* docker create -p 1338:80 --name app.covidtest.webapi.container app.covidtest.webapi
 * docker login
 * docker build -t app.covidtest.webapi -f Dockerfile .
 * dotnet publish -c Release
